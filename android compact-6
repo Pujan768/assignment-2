@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" /><style>
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+    text-decoration: none;
+}
+
+        </style>
+
+
+
+        <link rel="stylesheet" href="styleguide.css" />
+        <style>
+            :root {
+    --d-9d-9d-9: rgba(146, 200, 105, 1);
+}
+
+        </style>
+
+
+
+
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            .android-compact {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.android-compact .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 412px;
+    height: 917px;
+    position: relative;
+}
+
+.android-compact .overlap {
+    position: absolute;
+    width: 422px;
+    height: 49px;
+    top: 118px;
+    left: -1px;
+    background-color: #77d6fc;
+}
+
+.android-compact .electronics {
+    position: absolute;
+    top: 11px;
+    left: 21px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #0f0f0f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .overlap-group {
+    position: absolute;
+    width: 373px;
+    height: 117px;
+    top: 228px;
+    left: 19px;
+}
+
+.android-compact .rectangle {
+    height: 100px;
+    top: 0;
+    position: absolute;
+    width: 373px;
+    left: 0;
+}
+
+.android-compact .rectangle-2 {
+    height: 51px;
+    top: 66px;
+    background-color: #756f6f;
+    position: absolute;
+    width: 373px;
+    left: 0;
+}
+
+.android-compact .analog-digital {
+    position: absolute;
+    top: 27px;
+    left: 10px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .text-wrapper {
+    width: 200px;
+    position: absolute;
+    top: 74px;
+    left: 90px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #fffafa;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .overlap-group-2 {
+    position: absolute;
+    width: 373px;
+    height: 117px;
+    top: 724px;
+    left: 19px;
+}
+
+.android-compact .text-wrapper-2 {
+    position: absolute;
+    top: 74px;
+    left: 90px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .text-wrapper-3 {
+    position: absolute;
+    top: 24px;
+    left: 10px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .overlap-2 {
+    position: absolute;
+    width: 373px;
+    height: 117px;
+    top: 563px;
+    left: 19px;
+}
+
+.android-compact .text-wrapper-4 {
+    width: 235px;
+    position: absolute;
+    top: 74px;
+    left: 90px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #fffafa;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .p {
+    position: absolute;
+    top: 21px;
+    left: 10px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .overlap-3 {
+    position: absolute;
+    width: 373px;
+    height: 117px;
+    top: 397px;
+    left: 19px;
+}
+
+.android-compact .screenshot {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    top: 25px;
+    left: 21px;
+    object-fit: cover;
+}
+
+.android-compact .text-wrapper-5 {
+    position: absolute;
+    width: 156px;
+    top: 37px;
+    left: 102px;
+    font-family: "Jersey 25-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+        </style>
+
+
+
+
+    </head>
+    <body>
+        <div class="android-compact">
+            <div class="div">
+                <div class="overlap"><div class="electronics">Electronics &amp; Communication</div></div>
+                <div class="overlap-group">
+                    <img class="rectangle" src="img/rectangle-2.svg" />
+                    <div class="rectangle-2"></div>
+                    <p class="analog-digital">Analog &amp; Digital Electronics lab-1</p>
+                    <div class="text-wrapper">IIT ROORKEE</div>
+                </div>
+                <div class="overlap-group-2">
+                    <img class="rectangle" src="img/rectangle-12.svg" />
+                    <div class="rectangle-2"></div>
+                    <div class="text-wrapper-2">IIT ROORKEE</div>
+                    <div class="text-wrapper-3">Analog Electronic lab</div>
+                </div>
+                <div class="overlap-2">
+                    <img class="rectangle" src="img/rectangle-10.svg" />
+                    <div class="rectangle-2"></div>
+                    <div class="text-wrapper-4">IIT KHARAGPUR</div>
+                    <p class="p">Analog Electronic Circuit vision lab</p>
+                </div>
+                <div class="overlap-3">
+                    <img class="rectangle" src="img/rectangle-8.svg" />
+                    <div class="rectangle-2"></div>
+                    <div class="text-wrapper">IIT ROORKEE</div>
+                    <p class="analog-digital">Analog &amp; Digital Electronics lab-2</p>
+                </div>
+                <img class="screenshot" src="Screenshot 2025-01-19 112742.png" />
+                <div class="text-wrapper-5">VISION LAB</div>
+            </div>
+        </div>
+    </body>
+</html>
