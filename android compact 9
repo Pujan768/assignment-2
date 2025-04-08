@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" /> <style>
+            @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+    text-decoration: none;
+}
+
+        </style>
+
+
+
+
+        <link rel="stylesheet" href="styleguide.css" /> <style>
+            :root {
+    --d-9d-9d-9: rgba(146, 200, 105, 1);
+}
+
+        </style>
+
+
+
+
+
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            .android-compact {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.android-compact .div {
+    background-color: #ffffff;
+    width: 447px;
+    height: 917px;
+    position: relative;
+}
+
+.android-compact .text-wrapper {
+    position: absolute;
+    top: 139px;
+    left: 8px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #3648d5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.android-compact .p {
+    position: absolute;
+    top: 178px;
+    left: 32px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #3648d5;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .news-feed {
+    position: absolute;
+    width: 52px;
+    height: 34px;
+    top: 27px;
+    left: 395px;
+}
+
+.android-compact .text-wrapper-2 {
+    position: absolute;
+    width: 135px;
+    top: 102px;
+    left: 8px;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #ff6d06;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .familiarisation-with {
+    position: absolute;
+    width: 400px;
+    top: 234px;
+    left: 20px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .span {
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+.android-compact .text-wrapper-3 {
+    text-decoration: underline;
+}
+
+.android-compact .screenshot {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    top: 15px;
+    left: 12px;
+    object-fit: cover;
+}
+
+.android-compact .text-wrapper-4 {
+    position: absolute;
+    width: 156px;
+    top: 27px;
+    left: 93px;
+    font-family: "Jersey 25-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+        </style>
+
+
+
+
+
+
+    </head>
+    <body>
+        <div class="android-compact">
+            <div class="div">
+                <a
+                    href="https://www.vlab.co.in/broad-area-electronics-and-communications"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="text-wrapper">Electronics and Communication Engineering</div></a
+                >
+                <p class="p">Analog and Digital Electronics 1</p>
+                <img class="news-feed" src="News Feed.png" />
+                <div class="text-wrapper-2">LIST OF EXPERIMENT</div>
+                <p class="familiarisation-with">
+                    <span class="span"><br />-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/general-bread-board/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">Familiarisation with General Bread Board<br /><br /></span
+                    ></a>
+                    <span class="span">-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/familiarization-of-ics/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">Familiarization of ICs<br /><br /></span
+                    ></a>
+                    <span class="span">-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/de-morgans-theorems/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">To verify De-Morgan&#39;s theorems<br /><br /></span
+                    ></a>
+                    <span class="span">-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/4-to-16/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">4 to 16 decoder using 3 to 8 decoder IC<br /></span
+                    ></a>
+                    <span class="span"><br />-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/full-subtractor/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">Full Subtractor using 4:1 MUX<br /></span
+                    ></a>
+                    <span class="span"><br />-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/decimal-decoder/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">To design a BCD to Decimal decoder<br /></span
+                    ></a>
+                    <span class="span"><br />-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/parity-generator/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">Even/Odd Parity Generator<br /></span
+                    ></a>
+                    <span class="span"><br />-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/generation-of-clock/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">Generation of clock using NAND and NOR gate<br /></span
+                    ></a>
+                    <span class="span"><br />-</span>
+                    <a href="https://ade-iitr.vlabs.ac.in/exp/logic-gates/" target="_blank" rel="noopener noreferrer"
+                        ><span class="text-wrapper-3">Application of basic logic gates in fire and burglar alarms</span></a
+                    >
+                </p>
+                <img class="screenshot" src="Screenshot 2025-01-19 112742.png" />
+                <div class="text-wrapper-4">VISION LAB</div>
+            </div>
+        </div>
+    </body>
+</html>
