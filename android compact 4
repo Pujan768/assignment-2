@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <style>
+            @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+    text-decoration: none;
+}
+
+        </style>
+
+
+
+
+
+
+
+        <link rel="stylesheet" href="styleguide.css" />
+        <style>
+            :root {
+    --d-9d-9d-9: rgba(146, 200, 105, 1);
+}
+
+        </style>
+
+
+
+
+
+
+
+
+
+        <link rel="stylesheet" href="style.css" /><style>
+
+.android-compact {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.android-compact .div {
+    background-color: #ffffff;
+    width: 447px;
+    height: 917px;
+    position: relative;
+}
+
+.android-compact .text-wrapper {
+    position: absolute;
+    width: 397px;
+    top: 292px;
+    left: 25px;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #535252;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .p {
+    position: absolute;
+    width: 397px;
+    top: 630px;
+    left: 25px;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #535252;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .text-wrapper-2 {
+    position: absolute;
+    width: 363px;
+    top: 691px;
+    left: 25px;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #535252;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .text-wrapper-3 {
+    position: absolute;
+    width: 397px;
+    top: 748px;
+    left: 25px;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #535252;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .text-wrapper-4 {
+    position: absolute;
+    width: 379px;
+    top: 806px;
+    left: 25px;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #7f7f7f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .screenshot {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    top: 25px;
+    left: 25px;
+    object-fit: cover;
+}
+
+.android-compact .text-wrapper-5 {
+    position: absolute;
+    width: 156px;
+    top: 37px;
+    left: 106px;
+    font-family: "Jersey 25-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .overlap-group {
+    position: absolute;
+    width: 362px;
+    height: 38px;
+    top: 137px;
+    left: 25px;
+    background-image: url(./img/ellipse-1.svg);
+    background-size: 100% 100%;
+}
+
+.android-compact .text-wrapper-6 {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    opacity: 0.6;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #181717;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .icon-search {
+    position: absolute;
+    width: 19px;
+    height: 16px;
+    top: 10px;
+    left: 323px;
+}
+
+.android-compact .rectangle {
+    position: absolute;
+    width: 102px;
+    height: 3px;
+    top: 260px;
+    left: 126px;
+}
+
+.android-compact .text-wrapper-7 {
+    position: absolute;
+    top: 233px;
+    left: 25px;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #c1c1c1;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .text-wrapper-8 {
+    position: absolute;
+    top: 233px;
+    left: 125px;
+    font-family: "Roboto Flex-Regular", Helvetica;
+    font-weight: 400;
+    color: #54b400;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+        </style>
+
+
+
+
+
+
+
+    </head>
+    <body>
+        <div class="android-compact">
+            <div class="div">
+                <p class="text-wrapper">
+                    Good lab facilities and updated lab experiments are critical for any engineering college. Paucity of lab
+                    facilities often make it difficult to conduct experiments. Also, good teachers are always a scarce resource.
+                    The Vision Lab project addresses this issue of lack of good lab facilities, as well as trained teachers, by
+                    providing remote-access to simulation-based Labs in various disciplines of science and engineering. Yet
+                    another objective is to arouse the curiosity of the students and permit them to learn at their own pace. This
+                    student-centric approach facilitates the absorption of basic and advanced concepts through simulation-based
+                    experimentation. Internet-based experimentation further permits use of additional web-resources,
+                    video-lectures, animated demonstrations and self-evaluation. Specifically, the viosion Lab project addresses
+                    the following:
+                </p>
+                <p class="p">Access to online labs to those engineering colleges that lack these lab facilities</p>
+                <p class="text-wrapper-2">
+                    Access to online labs as a complementary facility to those colleges that already have labs
+                </p>
+                <p class="text-wrapper-3">Training and skill-set augmentation through workshops and on-site/ online training</p>
+                <p class="text-wrapper-4">
+                    vision lab are any place, any pace, any-time, any-type labs. It is a paradigm shift in student-centric, online
+                    education.
+                </p>
+                <img class="screenshot" src="Screenshot 2025-01-19 112742.png" />
+                <div class="text-wrapper-5">VISION LAB</div>
+                <div class="overlap-group">
+                    <div class="text-wrapper-6">Search Lab</div>
+                    <img class="icon-search" src="🦆 icon _search_.png" />
+                </div>
+                <img class="rectangle" src="Rectangle 3.png" />
+                <div class="text-wrapper-7">OBJECTIVES</div>
+                <div class="text-wrapper-8">THE PHILOSOPHY</div>
+            </div>
+        </div>
+    </body>
+</html>
