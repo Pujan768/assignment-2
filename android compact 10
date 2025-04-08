@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <style>
+           @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0px;
+    height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+    text-decoration: none;
+}
+ 
+        </style>
+
+
+
+
+        <link rel="stylesheet" href="styleguide.css" /> <style>
+            :root {
+    --d-9d-9d-9: rgba(146, 200, 105, 1);
+}
+
+        </style>
+
+
+
+
+        <link rel="stylesheet" href="style.css" /><style>
+            .android-compact {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.android-compact .div {
+    background-color: #ffffff;
+    width: 412px;
+    height: 917px;
+    position: relative;
+}
+
+.android-compact .screenshot {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 312px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.android-compact .text-wrapper {
+    position: absolute;
+    top: 151px;
+    left: 8px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #3648d5;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.android-compact .p {
+    position: absolute;
+    top: 177px;
+    left: 22px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #3648d5;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.android-compact .news-feed {
+    position: absolute;
+    width: 52px;
+    height: 34px;
+    top: 3px;
+    left: 0;
+}
+
+.android-compact .text-wrapper-2 {
+    position: absolute;
+    width: 280px;
+    top: 224px;
+    left: 7px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.android-compact .text-wrapper-3 {
+    position: absolute;
+    width: 195px;
+    top: 258px;
+    left: 116px;
+    font-family: "Inconsolata-Regular", Helvetica;
+    font-weight: 400;
+    color: #ff9605;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .img {
+    width: 412px;
+    height: 177px;
+    top: 342px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+.android-compact .text-wrapper-4 {
+    position: absolute;
+    top: 326px;
+    left: 74px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.android-compact .line {
+    position: absolute;
+    width: 412px;
+    height: 5px;
+    top: 104px;
+    left: 0;
+    object-fit: cover;
+}
+
+        </style>
+
+
+
+
+    </head>
+    <body>
+        <div class="android-compact">
+            <div class="div">
+                <img class="screenshot" src="Screenshot 2025-01-19 112742.png" />
+                <a
+                    href="https://www.vlab.co.in/broad-area-electronics-and-communications"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ><div class="text-wrapper">Electronics and Communication Engineering</div></a
+                >
+                <p class="p">Analog and Digital Electronics 1</p>
+                <img class="news-feed" src="News Feed.png" />
+                <a href="https://ade-iitr.vlabs.ac.in/exp/generation-of-clock/" target="_blank" rel="noopener noreferrer"
+                    ><p class="text-wrapper-2">Generation of clock using NAND and NOR gate</p></a
+                >
+                <div class="text-wrapper-3">SIMULATION</div>
+                <img class="img" src="Screenshot 2025-01-19 174536.png" />
+                <p class="text-wrapper-4">To design a generation of clock using NAND gate</p>
+                <img class="line" src="img/line-7.svg" />
+            </div>
+        </div>
+    </body>
+</html>
